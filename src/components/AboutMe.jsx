@@ -21,6 +21,12 @@ const StyledAboutMe = styled.section`
 export default function AboutMe() {
   const { avatar_url, bio } = useSelector(selectData);
 
+  const biography = [
+    bio,
+    "B.S. in Mechanical Engineering from Yonsei University",
+    "M.S. in Mechanical Engineering from Yonsei University"
+  ];
+    
   return (
     <Element name={"About"} id="about">
       <StyledAboutMe className="section">
@@ -34,7 +40,7 @@ export default function AboutMe() {
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
-                <p>{bio}</p>
+                {biography.map((line, index) => <p key={index}>{line}</p>)}
                 {moreInfo && <p>{moreInfo}</p>}
               </Container>
             </Col>
@@ -52,4 +58,4 @@ export default function AboutMe() {
       </StyledAboutMe>
     </Element>
   );
-}
+  }

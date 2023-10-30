@@ -1,12 +1,10 @@
-# A React Portfolio Template for GitHub
+# gA React Portfolio Template for GitHub
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/) [![GitHub Repo Forks](https://img.shields.io/github/forks/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github&label=Forks)](https://github.com/mshuber1981/github-react-portfolio-template/network/members)
 
 A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
 
 Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
-
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white) Say thank you!](https://twitter.com/intent/tweet?text=Thanks%20for%20the%20awesome%20Portfolio%20Template!%20https://github.com/mshuber1981/github-react-portfolio-template&via=MikeyHuber1981)
 
 ## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
 
@@ -30,7 +28,6 @@ Add your GitHub username once and all of your info will automatically be updated
    ```bash
    npm install
    ```
-
 5. Navigate to the src directory and open data.js
 6. Add your GitHub username ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L17) lines 17-21)
 
@@ -41,7 +38,6 @@ Add your GitHub username once and all of your info will automatically be updated
    */
    export const githubUsername = "Your GitHub username here";
    ```
-
 7. Start the development server to view the results
 
    ```bash
@@ -61,14 +57,12 @@ Add your GitHub username once and all of your info will automatically be updated
    */
    export const filteredProjects = ["example-1", "example-2", "example-3"];
    ```
-
 2. Import the projects images you want to use ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L7) lines 7-8) or the default image will be applied
 
    ```javascript
    // Projects Images (add your images to the images directory and import below)
    import Logo from "./images/logo.svg";
    ```
-
 3. Follow the instructions to update the projectCardImages array ([data.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/data.js#L97) lines 97-103)
 
    ```javascript
@@ -105,7 +99,6 @@ A helpful guide for Create React App deployments with GitHub Pages can be found 
    ```json
    "homepage": "https://YourUsername.github.io/your-app/",
    ```
-
 2. Run the deploy command
 
    ```bash
@@ -123,7 +116,7 @@ Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-templa
 - [Add a link to your resume](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section#add-a-link-to-your-resume)
 - [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
 
-[Back to top :top:](#a-react-portfolio-template-for-github)
+[Back to top 🔝](#a-react-portfolio-template-for-github)
 
 ### License
 

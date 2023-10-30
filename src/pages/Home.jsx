@@ -4,6 +4,7 @@ import { selectData } from "../pages/homeSlice";
 // Components
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
+import Publications from "../components/Publications";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
@@ -26,6 +27,7 @@ export default function Home() {
       <main>
         <AboutMe />
         <Skills />
+        <Publications />
         <Projects />
         <Contact />
       </main>
