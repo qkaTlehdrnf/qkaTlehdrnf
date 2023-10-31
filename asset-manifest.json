@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1566e1d9.css",
-    "main.js": "/static/js/main.9985cfdc.js",
-    "static/media/RICHARD_FEYNMAN.jpg": "/static/media/RICHARD_FEYNMAN.88b881ff8a1cd3feac39.jpg",
-    "static/media/profile-removed.png": "/static/media/profile-removed.8ef85e74f8d1cb39574c.png",
-    "static/media/52259221868_b757d6cdea_k.jpg": "/static/media/52259221868_b757d6cdea_k.c5b8f780941c9a3631e6.jpg",
-    "static/media/YonseiSymbol.png": "/static/media/YonseiSymbol.8aedee88e971b62cef59.png",
-    "service-worker.js": "/service-worker.js",
-    "static/media/GH.svg": "/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
-    "index.html": "/index.html",
-    "main.1566e1d9.css.map": "/static/css/main.1566e1d9.css.map",
-    "main.9985cfdc.js.map": "/static/js/main.9985cfdc.js.map"
+    "main.css": "/your-app/static/css/main.1566e1d9.css",
+    "main.js": "/your-app/static/js/main.bde9709f.js",
+    "static/media/RICHARD_FEYNMAN.jpg": "/your-app/static/media/RICHARD_FEYNMAN.88b881ff8a1cd3feac39.jpg",
+    "static/media/profile-removed.png": "/your-app/static/media/profile-removed.8ef85e74f8d1cb39574c.png",
+    "static/media/52259221868_b757d6cdea_k.jpg": "/your-app/static/media/52259221868_b757d6cdea_k.c5b8f780941c9a3631e6.jpg",
+    "static/media/YonseiSymbol.png": "/your-app/static/media/YonseiSymbol.8aedee88e971b62cef59.png",
+    "service-worker.js": "/your-app/service-worker.js",
+    "static/media/GH.svg": "/your-app/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "index.html": "/your-app/index.html",
+    "main.1566e1d9.css.map": "/your-app/static/css/main.1566e1d9.css.map",
+    "main.bde9709f.js.map": "/your-app/static/js/main.bde9709f.js.map"
   },
   "entrypoints": [
     "static/css/main.1566e1d9.css",
-    "static/js/main.9985cfdc.js"
+    "static/js/main.bde9709f.js"
   ]
 }
