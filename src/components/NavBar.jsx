@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react";
 // Components
 import { Container, Nav, Navbar } from "react-bootstrap";
 // Images
-import Logo from "./defaultNavLogo.svg";
+import Logo from "./YonseiSymbol.png";
 
 // #region styled-components
 const StyledSwitch = styled.label`
@@ -111,8 +111,8 @@ export default function NavBar({ Logo }) {
             <img
               alt="Logo"
               src={Logo}
-              width="35"
-              height="35"
+              width="70"
+              height="70"
               className="rounded-circle"
             />
           </Navbar.Brand>

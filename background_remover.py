@@ -4,7 +4,7 @@ from rembg import remove
 from PIL import Image 
   
 # Store path of the image in the variable input_path 
-input_path =  'src/images/profile_pic.jpg' 
+input_path =  'public/flag.jpg'
   
 # Store path of the output image in the variable output_path 
 output_path = 'output.png' 
